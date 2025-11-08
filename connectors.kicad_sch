@@ -1232,8 +1232,8 @@
 		)
 		(uuid "12eaf3fc-dd5b-4531-9a49-eedbdceee84d")
 	)
-	(hierarchical_label "SCK"
-		(shape passive)
+	(hierarchical_label "MOSI"
+		(shape input)
 		(at 212.09 116.84 180)
 		(effects
 			(font
@@ -1243,8 +1243,8 @@
 		)
 		(uuid "13302dc2-8939-40eb-92ba-6879a6815be3")
 	)
-	(hierarchical_label "MISO"
-		(shape output)
+	(hierarchical_label "SCK"
+		(shape passive)
 		(at 212.09 114.3 180)
 		(effects
 			(font
@@ -1254,7 +1254,7 @@
 		)
 		(uuid "1a0dfd2c-e136-4ed3-aefb-8d6d2f6095ab")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "RESET"
 		(shape passive)
 		(at 233.68 119.38 0)
 		(effects
@@ -1265,8 +1265,8 @@
 		)
 		(uuid "1f5e504b-946c-4992-8f99-d81898c0b8b3")
 	)
-	(hierarchical_label "RESET"
-		(shape passive)
+	(hierarchical_label "MISO"
+		(shape input)
 		(at 212.09 119.38 180)
 		(effects
 			(font
@@ -1353,8 +1353,8 @@
 		)
 		(uuid "8ee85025-440a-41a4-861c-029ec869a11b")
 	)
-	(hierarchical_label "MOSI"
-		(shape input)
+	(hierarchical_label "GND"
+		(shape passive)
 		(at 233.68 116.84 0)
 		(effects
 			(font
@@ -1397,8 +1397,8 @@
 		)
 		(uuid "b935b258-1436-4024-8fe7-cc14978ba390")
 	)
-	(hierarchical_label "RX"
-		(shape input)
+	(hierarchical_label "TX"
+		(shape output)
 		(at 161.29 119.38 0)
 		(effects
 			(font
@@ -1441,8 +1441,8 @@
 		)
 		(uuid "e2ea7559-083c-4e38-8d33-d003b16ae6f4")
 	)
-	(hierarchical_label "TX"
-		(shape output)
+	(hierarchical_label "RX"
+		(shape input)
 		(at 161.29 121.92 0)
 		(effects
 			(font
